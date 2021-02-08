@@ -23,7 +23,14 @@
   content: "";
 }
 
-.col-6 > .container > div{
+/* .col-6 > .container > div{
   border: 1px solid white;
   background-color: #F07F80;
+} */
+
+.col-6 > div{
+  border: 1px solid white;
+  background-color: #F07F80;
+  height: calc(20vh - 20px);
+  margin-top: 10px;
 }

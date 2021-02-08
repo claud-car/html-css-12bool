@@ -14,7 +14,6 @@
 .container{
   width: 80%;
   margin:0 auto;
-  border: 1px solid black
 }
 
 .container::after{
@@ -23,14 +22,21 @@
   content: "";
 }
 
-/* .col-6 > .container > div{
-  border: 1px solid white;
+.col-6 > .row7 > div{
   background-color: #F07F80;
-} */
+  height: calc(20vh - 10px);
+  margin-top: 5px;
+  border: 1px solid white;
+}
 
-.col-6 > div{
-  border: 1px solid white;
-  background-color: #F07F80;
-  height: calc(20vh - 20px);
-  margin-top: 10px;
+.row7{
+  margin-left: 5px;
+}
+
+.row7 > .col-8{
+  width: calc(100%/12 * 8 - 5px);
+}
+
+.row7 > .col-6{
+  width: calc(100%/12 * 6 - 5px);
 }

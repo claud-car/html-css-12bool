@@ -16,27 +16,27 @@
   margin:0 auto;
 }
 
-.container::after{
+.row:after{
   display: table;
   clear: both;
   content: "";
 }
 
-.col-6 > .row7 > div{
+.col-6 > .last-row > div{
   background-color: #F07F80;
   height: calc(20vh - 10px);
   margin-top: 5px;
   border: 1px solid white;
 }
 
-.row7{
+.last-row{
   margin-left: 5px;
 }
 
-.row7 > .col-8{
+.last-row > .col-8{
   width: calc(100%/12 * 8 - 5px);
 }
 
-.row7 > .col-6{
-  width: calc(100%/12 * 6 - 5px);
+.last-row > .col-6{
+  width: calc(100%/12 * 6   - 5px);
 }
